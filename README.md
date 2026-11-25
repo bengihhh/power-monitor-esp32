@@ -47,6 +47,18 @@ idf.py -p COM12 flash
 python -m esptool --chip esp32s3 --port COM12 --baud 460800 write_flash 0x0 power-monitor-flash.bin
 ```
 
+## 界面预览
+
+设计示意图使用示例读数。
+
+### Light
+
+![Power Monitor Touch 的 Light 主题](ui-light.png)
+
+### Dark
+
+![Power Monitor Touch 的 Dark 主题](ui-dark.png)
+
 ## 屏幕操作
 
 | 位置 | 操作和含义 |
