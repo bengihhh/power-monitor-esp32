@@ -12,6 +12,8 @@
 | 编译环境 | ESP-IDF 5.5.3，目标 `esp32s3` |
 | 电脑采集 | Python 3、pyserial，USB-to-UART 串口 921600 baud |
 
+![Bluebird Labs POWER MONITOR 功耗仪正面](power-monitor-hardware.jpg)
+
 ## 接线
 
 ```text
@@ -58,6 +60,12 @@ python -m esptool --chip esp32s3 --port COM12 --baud 460800 write_flash 0x0 powe
 ### Dark
 
 ![Power Monitor Touch 的 Dark 主题](ui-dark.png)
+
+### 操作演示
+
+视频展示主题切换、实时电流曲线和清零操作，时长约 34 秒。
+
+[观看操作演示（MP4）](power-monitor-demo.mp4)
 
 ## 屏幕操作
 
