@@ -1,0 +1,5 @@
+dependencies:
+  idf: ">=5.4,<6"
+  espressif/esp32_s3_lcd_ev_board: "4.0.3"
+  espressif/usb_host_cdc_acm: "^2.1.0"
+  lvgl/lvgl: "^9.2.0"
